@@ -9,7 +9,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const routesData = [
   { path: "*", element: <Main /> },
-  { path: "/error", element: <Error /> },
   { path: "/auth", element: <Authorization /> },
   { path: "/search", element: <Search /> },
   { path: "/result", element: <SearchResult /> },
